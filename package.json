@@ -24,7 +24,7 @@
     "lint": "eslint ."
   },
   "dependencies": {
-    "cordova-android": "~6.4.0",
+    "cordova-android": "^8.0.0",
     "cordova-ios": "^4.5.3",
     "cordova-plugin-battery-status": "^1.2.5",
     "cordova-plugin-ble-central": "^1.1.4",
@@ -75,8 +75,8 @@
   },
   "cordova": {
     "platforms": [
-      "android",
-      "ios"
+      "ios",
+      "android"
     ],
     "plugins": {
       "cordova-plugin-battery-status": {},
